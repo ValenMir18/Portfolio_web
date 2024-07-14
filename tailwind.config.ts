@@ -13,8 +13,32 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+         'bounce-slow': 'bounce 2s infinite'
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'ease-in-out',
+          },
+          '50%': {
+            transform: 'translateY(-8%)',
+            animationTimingFunction: 'ease-in-out',
+          },
+        }
+      },
+      screens: {
+        'xs': '410px',
+        'sm': '547px',
+        'md': '879px',
+        'lg': '1203px',
+        'xl': '1680px',
+        '2xl': '1536px',
+      },
     },
   },
+  variants: {},
   plugins: [],
 };
 export default config;

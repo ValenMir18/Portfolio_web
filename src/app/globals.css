@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~@fortawesome/fontawesome-free/css/all.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,12 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgba(10, 25, 47, 1);
 }
 
 @layer utilities {
@@ -31,3 +27,60 @@ body {
     text-wrap: balance;
   }
 }
+
+.bullet-list {
+  list-style: none; /* Eliminar los marcadores de lista predeterminados */
+  padding-left: 0; /* Eliminar el relleno predeterminado de la lista */
+}
+
+.bullet-list li:before {
+  content: "▹"; /* Agregar el elemento ▹ antes de cada elemento de la lista */
+  margin-right: 0.5rem; /* Ajusta el espacio entre el elemento y el texto */
+  color: crimson;
+}
+
+.contenedor ol {
+  counter-reset: item-counter;
+}
+
+
+.contenedor ol li a::before {
+  content: counter(item-counter, decimal-leading-zero) ".";
+  counter-increment: item-counter;
+  margin-right: 0.5rem;
+  color: #e62357;
+  font-size: 13px;
+}
+
+nav {
+  background-color: #0a192f;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(188, 187, 187);
+}
+
+
+::-webkit-scrollbar-button {
+    height: 8px; /* Altura de las flechas */
+    width: 24px; /* Ancho de las flechas */
+    display: block;
+    background-size: cover;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:end {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M19 9l-7 7-7-7"/></svg>');
+}
+
+::-webkit-scrollbar-button:vertical:increment:start {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M5 15l7-7 7 7"/></svg>');
+}
+

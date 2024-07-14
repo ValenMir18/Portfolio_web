@@ -5,28 +5,11 @@ import {
   faXTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import ContactMeLink from "./components/contactme";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
 
-config.autoAddCss = false;
-
-export default function Home() {
+export default function RedesSociales() {
   return (
-    <section id="home" className="flex flex-col er xs:my-24 lg:flex-row lg:my-20 md:mx-16 sm:mx-16">
-      <div className="text-center md:px-9 md:ml-10 lg:text-left lg:w-[900px]">
-        <h1 className="font-bold lg:text-6xl text-6xl tracking-tight text-slate-200">
-          VALENTINA MIRANDA
-        </h1>
-        <h2 className="my-3 lg:text-lg md:text-2xl text-3xl tracking-tight text-slate-400">
-          Web developer
-        </h2>
-        <p className="my-4 lg:text-lg lg:w-[550px] lg:text-justify text-center text-slate-500 tracking-tight text-3xl ">
-          Hi, welcome to my digital corner, where lines of code tell stories. 
-          I am a software developer dedicated to creating innovative solutions that transform ideas into reality.
-        </p>
-        <div className="flex lg:hidden justify-center my-8 pb-4 ">
-        <ul className="flex gap-4">
+    <div className="lg:flex flex-col fixed left-20 bottom-0 hidden">
+      <ul className=" space-y-4 after:block after:w-0.5 after:h-[100px] after:bg-rose-800 after:m-auto after:mt-5  ">
         <li>
           <a
             href="https://github.com/ValenMir18"
@@ -36,7 +19,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.5rem" }}
               title="Github"
             />
           </a>
@@ -50,7 +33,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.5rem" }}
               title="Instagram"
             />
           </a>
@@ -64,7 +47,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faXTwitter}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.5rem" }}
               title="X"
             />
           </a>
@@ -78,16 +61,12 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.5rem" }}
               title="Linkedin"
             />
           </a>
         </li>
       </ul>
-        </div>
-        <ContactMeLink />
-        
-      </div>
-    </section>
+    </div>
   );
 }
