@@ -15,8 +15,8 @@ export default function Nav() {
     <nav className="lg:py-2 md:py-5 lg:px-7 flex sticky top-0 z-50 justify-between items-center ">
       <div className="flex">
         <Link href={"/"}>
-          <Image
-            src="/imagenes/valdev.png"
+          <img
+            src="/Imagenes/valdev.png"
             alt="Icono"
             className=" lg:h-10 lg:w-26 lg:m-4 h-12 w-36 m-2 ml-4"
           />

@@ -46,7 +46,7 @@ export default function About() {
       </div>
       <div className="flex justify-center lg:justify-start lg:pt-16 mb-12 mt-2 lg:mt-0">
         <div className="relative w-[250px] h-64">
-          <Image
+          <img
             src="/imagenes/avatar1.jpg"
             alt=""
             className="w-full h-full object-cover"
