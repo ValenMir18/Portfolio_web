@@ -36,6 +36,9 @@ const config: Config = {
         'xl': '1680px',
         '2xl': '1536px',
       },
+      fontFamily: {
+        sans: ['Wittgenstein', 'sans-serif']
+      },
     },
   },
   variants: {},

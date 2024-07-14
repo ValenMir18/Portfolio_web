@@ -13,7 +13,7 @@ config.autoAddCss = false;
 
 export default function Home() {
   return (
-    <section id="home" className="flex flex-col er xs:my-24 lg:flex-row lg:my-20 md:mx-16 sm:mx-16">
+    <section id="home" className="flex flex-col xs:mb-24 xs:mt-16 lg:flex-row lg:my-20 md:mx-16 sm:mx-16">
       <div className="text-center md:px-9 md:ml-10 lg:text-left lg:w-[900px]">
         <h1 className="font-bold lg:text-6xl sm:text-5xl text-6xl tracking-tight text-slate-200">
           VALENTINA MIRANDA
@@ -21,7 +21,7 @@ export default function Home() {
         <h2 className="my-3 lg:text-lg md:text-2xl text-3xl tracking-tight text-slate-400">
           Web developer
         </h2>
-        <p className="my-4 lg:text-lg lg:w-[550px] lg:text-justify text-center text-slate-500 tracking-tight text-3xl ">
+        <p className="my-4 lg:text-lg lg:w-[550px] lg:text-justify text-center text-slate-500 tracking-tight text-2xl ">
           Hi, welcome to my digital corner, where lines of code tell stories. 
           I am a software developer dedicated to creating innovative solutions that transform ideas into reality.
         </p>

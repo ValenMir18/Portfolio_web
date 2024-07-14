@@ -2,7 +2,7 @@
 export default function About() {
   return (
     <section
-      className="flex flex-col-reverse lg:flex-row lg:mx-24 lg:mt-24 md:mt-28 md:px-12 "
+      className="flex flex-col-reverse lg:flex-row lg:mx-24 lg:mt-24 md:mt-12 md:px-12 "
       id="about"
     >
       <div className="flex flex-col md:mx-16 sm:mx-6 xs:mx-10 ">
@@ -14,11 +14,11 @@ export default function About() {
         </div>
 
         <div className="lg:bg-[#0a192fee] mt-4 lg:shadow-lg lg:drop-shadow-lg lg:px-7 pb-10 lg:pt-3 md:pt-2 lg:w-[500px] md:w-auto">
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-4 text-white">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[25px] mt-4 text-white">
             I am Valentina, a Colombian developer dedicated to building
             memorable web experiences for users.
           </p>
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3 text-white">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[25px] mt-3 text-white">
             I worked closely with the product team at accounting firm {" "}
             <a
               href="https://www.siigo.com/nosotros/"
@@ -34,7 +34,7 @@ export default function About() {
             and as part of my hobby, I immerse myself in creative projects where
             I can explore new ideas and technologies.
           </p>
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3 text-white">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[25px] mt-3 text-white">
             I am committed to my professional and academic growth. I am
             currently studying systems engineering at the University of Córdoba,
             where I am strengthening my skills in the world of code, a journey

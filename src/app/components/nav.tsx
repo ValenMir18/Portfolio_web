@@ -65,7 +65,7 @@ export default function Nav() {
         onClick={toggleMenu}
         data-collapse-toggle="navbar-hamburger"
         type="button"
-        className=" inline-flex lg:hidden items-center justify-center p-2 w-14 h-14 text-sm text-gray-500 rounded-lg mr-8"
+        className=" inline-flex lg:hidden items-center justify-center p-2 w-14 h-14 text-sm text-gray-500 rounded-lg mr-4"
         aria-controls="navbar-hamburger"
          aria-expanded={isOpen ? "true" : "false"}
       >
