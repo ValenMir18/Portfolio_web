@@ -19,60 +19,60 @@ interface FilterData {
 export default function Skills() {
   const skills: Skill[] = [
     {
-      src: "/imagenes/HTML.png",
+      src: "/Imagenes/HTML.png",
       alt: "HTML5",
       title: "HTML5",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/css3.png",
+      src: "/Imagenes/css3.png",
       alt: "CSS3",
       title: "CSS3",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/tailwind.png",
+      src: "/Imagenes/tailwind.png",
       alt: "Tailwind CSS",
       title: "Tailwind CSS",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/mui.png",
+      src: "/Imagenes/mui.png",
       alt: "Material UI",
       title: "Material UI",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/javascript.png",
+      src: "/Imagenes/javascript.png",
       alt: "JavaScript",
       title: "JavaScript",
       category: "BackEnd",
     },
     {
-      src: "/imagenes/ts.png",
+      src: "/Imagenes/ts.png",
       alt: "TypeScript",
       title: "TypeScript",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/react.png",
+      src: "/Imagenes/react.png",
       alt: "React JS",
       title: "React JS",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/nextjs.png",
+      src: "/Imagenes/nextjs.png",
       alt: "Next JS",
       title: "Next JS",
       category: "FrontEnd",
     },
     {
-      src: "/imagenes/mysql.png",
+      src: "/Imagenes/mysql.png",
       alt: "MySQL",
       title: "MySQL",
       category: "BackEnd",
     },
-    { src: "/imagenes/git.png", alt: "Git", title: "Git", category: "Tools" },
+    { src: "/Imagenes/git.png", alt: "Git", title: "Git", category: "Tools" },
   ];
 
   const [filteredSkills, setFilteredSkills] = useState<Skill[]>(skills);
@@ -109,7 +109,7 @@ export default function Skills() {
     <section id="skills" className="flex mx-24 mt-24">
       <div className=" flex flex-col">
         <div className=" flex w-full items-center">
-          <h2 className="lg:text-[24px] text-[26px] pl-1 w-16 bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
+          <h2 className="lg:text-[24px] text-white text-[26px] pl-1 w-16 bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
             Skills
           </h2>
           <hr className="mt-5 border-t-0.5 border-rose-600 flex-grow ml-2" />

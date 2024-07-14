@@ -22,7 +22,7 @@ interface CheckboxItemProps {
         id={id}
         type="checkbox"
         name={id}
-        className="w-4 h-4  bg-gray-100 border-gray-300 rounded "
+        className="w-4 h-4 bg-cyan-700 border-gray-300 rounded "
       ></input>
       <label
         htmlFor="bordered-checkbox-2"

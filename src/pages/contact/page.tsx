@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact">
-      <div className={`p-5 lg:w-[900px] md:px-10 sm:mx-auto md:mx-auto dark:bg-[#0a192fee] bg-gray-200 shadow-lg drop-shadow-lg text-gray-300 ${messageSent ? '' : 'lg:grid lg:grid-cols-2'}`}>
+      <div className={`p-5 lg:w-[900px] md:px-10 sm:mx-auto md:mx-auto bg-[#0a192fee] shadow-lg drop-shadow-lg text-gray-300 ${messageSent ? '' : 'lg:grid lg:grid-cols-2'}`}>
       <div>
           
           {messageSent ? (

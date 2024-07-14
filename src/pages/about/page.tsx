@@ -15,11 +15,11 @@ export default function About() {
         </div>
 
         <div className="lg:bg-[#0a192fee] mt-4 lg:shadow-lg lg:drop-shadow-lg lg:px-7 pb-10 lg:pt-3 md:pt-2 lg:w-[500px] md:w-auto">
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-4">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-4 text-white">
             I am Valentina, a Colombian developer dedicated to building
             memorable web experiences for users.
           </p>
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3 text-white">
             I worked closely with the product team at accounting firm {" "}
             <a
               href="https://www.siigo.com/nosotros/"
@@ -35,7 +35,7 @@ export default function About() {
             and as part of my hobby, I immerse myself in creative projects where
             I can explore new ideas and technologies.
           </p>
-          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3">
+          <p className="text-justify tracking-tight lg:text-[16px] text-[27px] mt-3 text-white">
             I am committed to my professional and academic growth. I am
             currently studying systems engineering at the University of Córdoba,
             where I am strengthening my skills in the world of code, a journey
@@ -47,8 +47,8 @@ export default function About() {
       <div className="flex justify-center lg:justify-start lg:pt-16 mb-12 mt-2 lg:mt-0">
         <div className="relative w-[250px] h-64">
           <img
-            src="/imagenes/avatar1.jpg"
-            alt=""
+            src="/Imagenes/avatar1.jpg"
+            alt="Avatar"
             className="w-full h-full object-cover"
           />
           <div className="absolute top-0 left-0 w-full h-full border-2 border-white box-border"></div>
