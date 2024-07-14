@@ -73,6 +73,7 @@ export default function Skills() {
       category: "BackEnd",
     },
     { src: "/Imagenes/git.png", alt: "Git", title: "Git", category: "Tools" },
+    { src: "/Imagenes/Wordpress.png", alt: "WordPress", title: "WordPress", category: "Tools" },
   ];
 
   const [filteredSkills, setFilteredSkills] = useState<Skill[]>(skills);
