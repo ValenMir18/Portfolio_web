@@ -3,13 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import RedesSociales from "./components/redes";
 import Nav from "app/app/components/nav";
-import CustomCursor from "app/app/components/customCursor";
-import ContactMeLink from "./components/contactme";
 import About from "../pages/about/page";
 import Projects from "../pages/projects/page";
 import Contact from "../pages/contact/page";
 import Skills from "app/pages/skills/page";
-import Home from "./page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body>
         <Nav />
         <RedesSociales />
         <main className=" lg:py-5 lg:px-24 justify-center">

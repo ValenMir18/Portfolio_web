@@ -5,7 +5,7 @@ export default function About() {
       className="flex flex-col-reverse lg:flex-row lg:mx-24 lg:mt-24 md:mt-28 md:px-12 "
       id="about"
     >
-      <div className="flex flex-col md:mx-16 sm:mx-16 xs:mx-12 ">
+      <div className="flex flex-col md:mx-16 sm:mx-6 xs:mx-10 ">
         <div className="flex items-center justify-between lg:justify-start">
           <h2 className="lg:text-[24px] text-[26px] pl-1 text-white bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
             About me

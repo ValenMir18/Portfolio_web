@@ -106,16 +106,16 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="flex mx-24 mt-24">
+    <section id="skills" className="flex lg:mx-24 lg:mt-24 md:mx-20">
       <div className=" flex flex-col">
-        <div className=" flex w-full items-center">
+        <div className=" flex w-full items-center sm:px-12">
           <h2 className="lg:text-[24px] text-white text-[26px] pl-1 w-16 bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
             Skills
           </h2>
           <hr className="mt-5 border-t-0.5 border-rose-600 flex-grow ml-2" />
         </div>
 
-        <div className="bg-[#0a192fee] shadow-lg lg:w-[800px] h-full lg:p-3 md:px-4 md:my-3 justify-center rounded-2xl flex flex-col">
+        <div className="bg-[#0a192fee] shadow-lg lg:w-[800px] h-full lg:p-3 px-4 md:my-3 justify-center rounded-2xl flex flex-col">
           <Filter onChange={handleFilterChange} />
           <ul className="flex flex-wrap my-9 px-3">
             {filteredSkills.map((skill, index) => (
