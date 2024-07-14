@@ -34,10 +34,10 @@ const Contact: React.FC = () => {
           </div>
           ) : (
             <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
-              <h2 className="lg:text-[35px] text-[42px]">Let's connect!</h2>
+              <h2 className="lg:text-[35px] text-[42px]">Let&apos;s connect!</h2>
               <p className="py-2 px-8 flex justify-center lg:text-[18px] text-[28px]">
               If you want to know more about me or my work, or if you would just
-              like to say hello, send me a message. I'd love to hear from you.
+              like to say hello, send me a message. I&apos;d love to hear from you.
             </p>
             <div className="mt-2">
             <i className="fa fa-code" aria-hidden="true"></i>

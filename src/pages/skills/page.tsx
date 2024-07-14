@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Filter from "app/app/components/filter";
+import Image from "next/image";
 
 interface Skill {
   src: string;
@@ -120,7 +121,7 @@ export default function Skills() {
             {filteredSkills.map((skill, index) => (
               <li key={index} className="ml-4 mb-4 animate-bounce-slow">
                 <div className="flex justify-center items-center w-24 h-24 bg-white p-5 rounded-[22px] transition-transform transform hover:scale-105 hover:shadow-xl">
-                  <img src={skill.src} alt={skill.alt} title={skill.title} />
+                  <Image src={skill.src} alt={skill.alt} title={skill.title} />
                 </div>
               </li>
             ))}

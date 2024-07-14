@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section
@@ -28,7 +30,7 @@ export default function About() {
               Siigo
             </a>,
             where I contributed to the development of innovative tools that
-            simplify and improve our users' experience on the firm's website.
+            simplify and improve our users&apos; experience on the firm&apos;s website.
             But my passion for programming goes beyond work hours; Independently
             and as part of my hobby, I immerse myself in creative projects where
             I can explore new ideas and technologies.
@@ -44,7 +46,7 @@ export default function About() {
       </div>
       <div className="flex justify-center lg:justify-start lg:pt-16 mb-12 mt-2 lg:mt-0">
         <div className="relative w-[250px] h-64">
-          <img
+          <Image
             src="/imagenes/avatar1.jpg"
             alt=""
             className="w-full h-full object-cover"
