@@ -15,7 +15,7 @@ export default function RedesSociales() {
             href="https://github.com/ValenMir18"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -29,7 +29,7 @@ export default function RedesSociales() {
             href="https://www.instagram.com/prasca__v?igsh=MWsybWZqZzYxYXMxeQ=="
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -43,7 +43,7 @@ export default function RedesSociales() {
             href="https://twitter.com/valMpr"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faXTwitter}
@@ -57,7 +57,7 @@ export default function RedesSociales() {
             href="https://www.linkedin.com/in/valenmiranda/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faLinkedin}

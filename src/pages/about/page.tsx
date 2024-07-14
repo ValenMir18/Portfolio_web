@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -8,7 +7,7 @@ export default function About() {
     >
       <div className="flex flex-col md:mx-16 sm:mx-16 xs:mx-12 ">
         <div className="flex items-center justify-between lg:justify-start">
-          <h2 className="lg:text-[24px] text-[26px] pl-1 bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
+          <h2 className="lg:text-[24px] text-[26px] pl-1 text-white bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
             About me
           </h2>
           <hr className="flex-grow border-t-0.5 border-rose-600 ml-4" />

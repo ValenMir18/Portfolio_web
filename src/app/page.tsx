@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <section id="home" className="flex flex-col er xs:my-24 lg:flex-row lg:my-20 md:mx-16 sm:mx-16">
       <div className="text-center md:px-9 md:ml-10 lg:text-left lg:w-[900px]">
-        <h1 className="font-bold lg:text-6xl text-6xl tracking-tight text-slate-200">
+        <h1 className="font-bold lg:text-6xl sm:text-5xl text-6xl tracking-tight text-slate-200">
           VALENTINA MIRANDA
         </h1>
         <h2 className="my-3 lg:text-lg md:text-2xl text-3xl tracking-tight text-slate-400">
@@ -32,7 +32,7 @@ export default function Home() {
             href="https://github.com/ValenMir18"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -46,7 +46,7 @@ export default function Home() {
             href="https://www.instagram.com/prasca__v?igsh=MWsybWZqZzYxYXMxeQ=="
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -60,7 +60,7 @@ export default function Home() {
             href="https://twitter.com/valMpr"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faXTwitter}
@@ -74,7 +74,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/valenmiranda/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600"
+            className="hover:text-rose-600 text-white"
           >
             <FontAwesomeIcon
               icon={faLinkedin}

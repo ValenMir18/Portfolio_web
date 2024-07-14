@@ -28,25 +28,25 @@ export default function Nav() {
         <ol className="flex space-x-12 uppercase right-20">
           <li className="nav-item">
             <Link href={"#about"} className={` hover:text-gray-500 `}>
-              <span className="text-[12px]">About</span>
+              <span className="text-[12px] text-white">About</span>
             </Link>
           </li>
 
           <li className="nav-item">
             <Link href={"#skills"} className={` hover:text-gray-500 `}>
-              <span className="text-[12px]">Skills</span>
+              <span className="text-[12px] text-white">Skills</span>
             </Link>
           </li>
 
           <li className="nav-item">
             <Link href={"#projects"} className={` hover:text-gray-500 `}>
-              <span className="text-[12px]">Projects</span>
+              <span className="text-[12px] text-white">Projects</span>
             </Link>
           </li>
 
           <li className="nav-item">
             <Link href={"#contact"} className={` hover:text-gray-500 `}>
-              <span className="text-[12px]">Contact</span>
+              <span className="text-[12px] text-white">Contact</span>
             </Link>
           </li>
         </ol>
@@ -54,7 +54,7 @@ export default function Nav() {
 
       <div className="ml-5 md:mr-5 hidden lg:flex">
         <a href="cvVALENTINA.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md">
+          <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
             Resume
           </button>
         </a>
@@ -109,25 +109,25 @@ export default function Nav() {
       <ol className="flex flex-col w-full uppercase items-center gap-2 right-20 ">
           <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
             <Link href={"#about"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px]">About</span>
+              <span className="text-[22px] text-white">About</span>
             </Link>
           </li>
 
           <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
             <Link href={"#skills"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px]">Skills</span>
+              <span className="text-[22px] text-white">Skills</span>
             </Link>
           </li>
 
           <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
             <Link href={"#projects"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px]">Projects</span>
+              <span className="text-[22px] text-white">Projects</span>
             </Link>
           </li>
 
           <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
             <Link href={"#contact"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px]">Contact</span>
+              <span className="text-[22px] text-white">Contact</span>
             </Link>
           </li>
         </ol>

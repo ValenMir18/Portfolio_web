@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Portafolio",
   description: "Bienvenido a mi portafolio personal",
   icons: {
-    icon: "/imagenes/iconya.png",
+    icon: "/Imagenes/iconya.png",
   },
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" sm:overflow-x-hidden">
+      <body className="">
         <Nav />
         <RedesSociales />
         <main className=" lg:py-5 lg:px-24 justify-center">
