@@ -53,7 +53,7 @@ export default function Nav() {
       </div>
 
       <div className="ml-5 md:mr-5 hidden lg:flex">
-        <a href="Cv_Valentina.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="Cv_ValentinasinU.pdf" target="_blank" rel="noopener noreferrer">
           <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
             Resume
           </button>
@@ -131,7 +131,7 @@ export default function Nav() {
             </Link>
           </li>
           <div className="mt-4">
-        <a href="Cv_Valentina.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="Cv_ValentinasinU.pdf" target="_blank" rel="noopener noreferrer">
           <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
             Download CV
           </button>
