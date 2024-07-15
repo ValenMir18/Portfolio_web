@@ -130,6 +130,13 @@ export default function Nav() {
               <span className="text-[22px] text-white">Contact</span>
             </Link>
           </li>
+          <div className="mt-4">
+        <a href="Cv_Valentina.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
+            Download CV
+          </button>
+        </a>
+      </div>
         </ol>
       </div>
     </nav>

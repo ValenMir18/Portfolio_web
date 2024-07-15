@@ -21,20 +21,20 @@ const Contact: React.FC = () => {
           
           {messageSent ? (
             <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
-            <h2 className="lg:text-[35px] text-[42px] tracking-tight">Thank you for your message!</h2>
+            <h2 className="lg:text-[35px] text-[42px] tracking-tight font-bold">Thank you for your message!</h2>
             <p className="py-2 px-8 flex justify-center lg:text-[18px] text-[28px] tracking-tight">
             I appreciate your interest and I will contact you soon.
             </p>
             <button
               onClick={handleNewMessage}
-              className="mt-4 bg-rose-700 hover:bg-rose-900 text-white font-bold py-2 px-4 rounded"
+              className="mt-4 bg-rose-700 hover:bg-rose-900 text-white py-2 px-4 rounded"
             >
               Send another message
             </button>
           </div>
           ) : (
             <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
-              <h2 className="lg:text-[35px] text-[42px] tracking-tight">Let&apos;s connect!</h2>
+              <h2 className="lg:text-[35px] text-[42px] tracking-tight font-bold">Let&apos;s connect!</h2>
               <p className="py-2 px-2 lg:px-8 flex justify-center lg:text-[18px] text-[28px] tracking-tight">
               If you want to know more about me or my work, or if you would just
               like to say hello, send me a message. I&apos;d love to hear from you.
