@@ -18,10 +18,10 @@ export default function Home() {
         <h1 className="font-bold lg:text-6xl sm:text-5xl text-6xl tracking-tight text-slate-200">
           VALENTINA MIRANDA
         </h1>
-        <h2 className="my-3 lg:text-lg md:text-2xl text-3xl tracking-tight text-slate-400">
+        <h2 className="my-3 lg:text-lg text-2xl  tracking-tight text-slate-400">
           Web developer
         </h2>
-        <p className="my-4 lg:text-lg lg:w-[550px] lg:text-justify text-center text-slate-500 tracking-tight text-2xl ">
+        <p className="my-4 text-lg lg:w-[550px] lg:text-justify text-center text-slate-500 tracking-tight md:text-2xl ">
           Hi, welcome to my digital corner, where lines of code tell stories. 
           I am a software developer dedicated to creating innovative solutions that transform ideas into reality.
         </p>
@@ -36,7 +36,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.8rem" }}
               title="Github"
             />
           </a>
@@ -50,7 +50,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.8rem" }}
               title="Instagram"
             />
           </a>
@@ -64,7 +64,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faXTwitter}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.8rem" }}
               title="X"
             />
           </a>
@@ -78,7 +78,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              style={{ fontSize: "2.2rem" }}
+              style={{ fontSize: "1.8rem" }}
               title="Linkedin"
             />
           </a>

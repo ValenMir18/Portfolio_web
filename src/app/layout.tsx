@@ -45,7 +45,7 @@ export default function RootLayout({
             </section>
             <section
               id="projects"
-              className="my-24 lg:mb-24 flex items-center justify-center"
+              className="my-20 lg:mb-24 flex items-center justify-center"
             >
               <Projects />
             </section>

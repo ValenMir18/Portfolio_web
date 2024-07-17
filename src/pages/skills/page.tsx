@@ -107,7 +107,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="flex lg:mx-24 lg:mt-24 md:mx-20">
+    <section id="skills" className="flex lg:mx-24 mt-24 md:mx-20">
       <div className=" flex flex-col">
         <div className=" flex w-full justify-center sm:px-12">
           <h2 className="lg:text-[24px] text-white text-[26px] px-2 w-auto bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
