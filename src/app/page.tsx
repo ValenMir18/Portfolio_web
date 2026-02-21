@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="flex flex-col-reverse items-center columns-2 xs:mb-24 xs:mt-16 lg:flex-row lg:my-12 md:mx-16 sm:mx-16"
+      className="flex flex-col-reverse items-center columns-2 xs:mb-24 xs:mt-8 lg:flex-row lg:my-12 md:mx-16 sm:mx-16"
     >
       <div className="text-center md:px-9 md:ml-10 lg:text-left lg:w-[900px]">
         <h1 className="font-bold lg:text-5xl sm:text-4xl tracking-tight text-slate-200">
