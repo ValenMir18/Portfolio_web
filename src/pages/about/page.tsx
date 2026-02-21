@@ -11,15 +11,15 @@ export default function About() {
 
         <div className="lg:bg-[#080808] mt-4 lg:shadow-lg lg:drop-shadow-lg lg:px-7 pb-10 lg:pt-3 md:pt-2 lg:w-[700px] md:w-auto">
           <p className="text-justify tracking-tight lg:text-[16px] text-[18px] lg:mt-4 text-white">
-            I'm Valentina, a Colombian web developer with professional experience in developing and evolving web applications for the healthcare sector.
+            I&apos;m Valentina, a Colombian web developer with professional experience in developing and evolving web applications for the healthcare sector.
           </p>
 
           <p className="text-justify tracking-tight lg:text-[16px] text-[18px] mt-3 text-white">
-            Since November 2024, I've worked at SL Software, where I actively participate in the modification, maintenance, and growth of a clinical laboratory results system, adapting it to the specific requirements of each client.
+            Since November 2024, I&apos;ve worked at SL Software, where I actively participate in the modification, maintenance, and growth of a clinical laboratory results system, adapting it to the specific requirements of each client.
           </p>
 
           <p className="text-justify tracking-tight lg:text-[16px] text-[18px] mt-3 text-white">
-            I've worked in product-oriented environments, collaborating closely on the implementation of new features, optimization of existing modules, and management of clinical databases, ensuring the stability and integrity of the information.
+            I&apos;ve worked in product-oriented environments, collaborating closely on the implementation of new features, optimization of existing modules, and management of clinical databases, ensuring the stability and integrity of the information.
           </p>
 
           <p className="text-justify tracking-tight lg:text-[16px] text-[18px] mt-3 text-white">
