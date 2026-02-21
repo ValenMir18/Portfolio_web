@@ -55,6 +55,12 @@ export default function Skills() {
       category: "FrontEnd",
     },
     {
+      src: "/Imagenes/php.png",
+      alt: "PHP",
+      title: "PHP",
+      category: "BackEnd",
+    },
+    {
       src: "/Imagenes/react.png",
       alt: "React JS",
       title: "React JS",
@@ -108,17 +114,17 @@ export default function Skills() {
 
   return (
     <section id="skills" className="flex lg:mx-24 mt-24 md:mx-20">
-      <div className=" flex flex-col">
-        <div className=" flex w-full justify-center sm:px-12">
-          <h2 className="lg:text-[24px] text-white text-[26px] px-2 w-auto bg-[#0a192fee] rounded-md shadow-lg drop-shadow-lg">
+      <div className=" flex flex-col max-w-[700px] w-full mx-auto">
+        <div className=" flex w-full justify-center sm:px-12 md:px-0">
+          <h2 className="lg:text-[20px] text-white text-[20px] px-2 w-auto bg-[#5d1d29e6] rounded-md shadow-lg drop-shadow-lg">
             Skills
           </h2>
-          <hr className="mt-5 border-t-0.5 border-rose-600 flex-grow " />
+          <hr className="mt-5 border-t-0.5 border-[#5d1d29e6] flex-grow " />
         </div>
 
-        <div className="bg-[#0a192fee] shadow-lg lg:w-[800px] h-full lg:p-3 px-4 md:my-3 justify-center rounded-2xl flex flex-col">
+        <div className="lg:bg-[#080808] shadow-lg w-full h-full lg:p-3 px-4 md:my-3 justify-center rounded-2xl flex flex-col">
           <Filter onChange={handleFilterChange} />
-          <ul className="flex flex-wrap my-9 sm:px-0 px-3">
+          <ul className="flex flex-wrap justify-center my-9 sm:px-0 px-3">
             {filteredSkills.map((skill, index) => (
               <li key={index} className="ml-4 mb-4 animate-bounce-slow">
                 <div className="flex justify-center items-center w-24 h-24 bg-white p-5 rounded-[22px] transition-transform transform hover:scale-105 hover:shadow-xl">

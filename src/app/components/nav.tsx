@@ -12,7 +12,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className="lg:py-2 md:py-5 lg:px-7 flex sticky top-0 z-50 justify-between items-center ">
+    <nav className="lg:py-1 md:py-2 lg:px-7 flex sticky top-0 z-50 justify-between items-center backdrop-blur-md ">
       <div className="flex">
         <Link href={"/"}>
           <img
@@ -54,7 +54,7 @@ export default function Nav() {
 
       <div className="ml-5 md:mr-5 hidden lg:flex">
         <a href="CVMIRANDA.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
+          <button className="border border-[#5d1d29e6] p-2 hover:bg-[#5d1d29e6] rounded-md text-white">
             Resume
           </button>
         </a>
@@ -65,7 +65,7 @@ export default function Nav() {
         onClick={toggleMenu}
         data-collapse-toggle="navbar-hamburger"
         type="button"
-        className=" inline-flex lg:hidden items-center justify-center p-2 w-14 h-14 text-sm text-gray-500 rounded-lg mr-4"
+        className=" inline-flex lg:hidden items-center justify-center p-2 w-14 h-14 text-sm text-white rounded-lg mr-4"
         aria-controls="navbar-hamburger"
          aria-expanded={isOpen ? "true" : "false"}
       >
@@ -105,38 +105,38 @@ export default function Nav() {
         )}
       </button>
 
-      <div className={`${isOpen ? "absolute" : "hidden"} bg-gray-800 min-h-fit static left-0 top-[90%] w-full lg:hidden flex items-center justify-center py-5`}>
-      <ol className="flex flex-col w-full uppercase items-center gap-2 right-20 ">
-          <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
-            <Link href={"#about"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px] text-white">About</span>
-            </Link>
-          </li>
+      <div className={`${isOpen ? "absolute" : "hidden"} bg-black min-h-fit static left-0 top-[90%] w-full lg:hidden flex items-center justify-center py-5`}>
+        <ol className="flex flex-col w-full uppercase items-center gap-2 right-20 ">
+            <li className="flex justify-center w-full hover:bg-[#86293ab1] py-2">
+              <Link href={"#about"} className={` hover:text-gray-500 `}>
+                <span className="text-[18px] text-white">About</span>
+              </Link>
+            </li>
 
-          <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
-            <Link href={"#skills"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px] text-white">Skills</span>
-            </Link>
-          </li>
+            <li className="flex justify-center w-full hover:bg-[#86293ab1] py-2">
+              <Link href={"#skills"} className={` hover:text-gray-500 `}>
+                <span className="text-[18px] text-white">Skills</span>
+              </Link>
+            </li>
 
-          <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
-            <Link href={"#projects"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px] text-white">Projects</span>
-            </Link>
-          </li>
+            <li className="flex justify-center w-full hover:bg-[#86293ab1] py-2">
+              <Link href={"#projects"} className={` hover:text-gray-500 `}>
+                <span className="text-[18px] text-white">Projects</span>
+              </Link>
+            </li>
 
-          <li className="flex justify-center w-full border border-gray-700 hover:bg-gray-700 py-2">
-            <Link href={"#contact"} className={` hover:text-gray-500 `}>
-              <span className="text-[22px] text-white">Contact</span>
-            </Link>
-          </li>
-          <div className="mt-4">
-        <a href="CVMIRANDA.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="border border-rose-600 p-2 hover:bg-rose-600 rounded-md text-white">
-            Download CV
-          </button>
-        </a>
-      </div>
+            <li className="flex justify-center w-full hover:bg-[#86293ab1] py-2">
+              <Link href={"#contact"} className={` hover:text-gray-500 `}>
+                <span className="text-[18px] text-white">Contact</span>
+              </Link>
+            </li>
+            <div className="mt-4">
+          <a href="CVMIRANDA.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="border border-[#5d1d29e6] p-2 hover:bg-[#86293ab1] rounded-md text-white">
+              Download CV
+            </button>
+          </a>
+          </div>
         </ol>
       </div>
     </nav>

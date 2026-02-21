@@ -13,7 +13,7 @@ export default function ContactMeLink() {
 
   return (
     <div className="mt-9">
-      <a href="#contact" onClick={scrollToContact} className="hover:bg-rose-900 bg-rose-700 p-3 rounded-md lg:text-[18px] text-white text-xl">
+      <a href="#contact" onClick={scrollToContact} className="hover:bg-[#6f2532e6] bg-[#5d1d29e6] p-3 rounded-md sm:text-[16px] lg:text-[18px] text-white text-xl">
         Contact me!
       </a>
     </div>

@@ -9,13 +9,13 @@ import {
 export default function RedesSociales() {
   return (
     <div className="lg:flex flex-col fixed left-20 bottom-0 hidden">
-      <ul className=" space-y-4 after:block after:w-0.5 after:h-[100px] after:bg-rose-800 after:m-auto after:mt-5  ">
+      <ul className=" space-y-4 after:block after:w-0.5 after:h-[100px] after:bg-[#5d1d29e6] after:m-auto after:mt-5  ">
         <li>
           <a
             href="https://github.com/ValenMir18"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600 text-white"
+            className="hover:text-[#b1b1b1] text-white"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -29,7 +29,7 @@ export default function RedesSociales() {
             href="https://www.instagram.com/prasca__v?igsh=MWsybWZqZzYxYXMxeQ=="
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600 text-white"
+            className="hover:text-[#b1b1b1] text-white"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -43,7 +43,7 @@ export default function RedesSociales() {
             href="https://twitter.com/valMpr"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600 text-white"
+            className="hover:text-[#b1b1b1] text-white"
           >
             <FontAwesomeIcon
               icon={faXTwitter}
@@ -57,7 +57,7 @@ export default function RedesSociales() {
             href="https://www.linkedin.com/in/valenmiranda/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-rose-600 text-white"
+            className="hover:text-[#b1b1b1] text-white"
           >
             <FontAwesomeIcon
               icon={faLinkedin}

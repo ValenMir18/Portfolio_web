@@ -16,34 +16,34 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact">
-      <div className={`p-5 lg:w-[900px] md:px-10 sm:mx-auto md:mx-auto bg-[#0a192fee] shadow-lg drop-shadow-lg text-gray-300 ${messageSent ? '' : 'lg:grid lg:grid-cols-2'}`}>
-      <div>
-          
-          {messageSent ? (
-            <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
-            <h2 className="lg:text-[35px] text-[42px] tracking-tight font-bold">Thank you for your message!</h2>
-            <p className="py-2 px-8 flex justify-center lg:text-[18px] text-[28px] tracking-tight">
-            I appreciate your interest and I will contact you soon.
-            </p>
-            <button
-              onClick={handleNewMessage}
-              className="mt-4 bg-rose-700 hover:bg-rose-900 text-white py-2 px-4 rounded"
-            >
-              Send another message
-            </button>
-          </div>
-          ) : (
-            <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
-              <h2 className="lg:text-[35px] text-[42px] tracking-tight font-bold">Let&apos;s connect!</h2>
-              <p className="py-2 px-2 lg:px-8 flex justify-center lg:text-[18px] text-[24px] tracking-tight">
-              If you want to know more about me or my work, or if you would just
-              like to say hello, send me a message. I&apos;d love to hear from you.
-            </p>
-            <div className="mt-2">
-            <i className="fa fa-code" aria-hidden="true"></i>
-            <i className="fa fa-heart ml-2" aria-hidden="true"></i>
-          </div>
-          </div>
+      <div className={`p-5 lg:w-[900px] md:px-10 sm:mx-auto md:mx-auto bg-[#080808] shadow-lg drop-shadow-lg text-gray-300 ${messageSent ? '' : 'lg:grid lg:grid-cols-2'}`}>
+        <div>
+            
+            {messageSent ? (
+              <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
+              <h2 className="lg:text-[35px] text-[42px] tracking-tight font-bold">Thank you for your message!</h2>
+              <p className="py-2 px-8 flex justify-center lg:text-[18px] text-[28px] tracking-tight">
+              I appreciate your interest and I will contact you soon.
+              </p>
+              <button
+                onClick={handleNewMessage}
+                className="mt-4 bg-[#5d1d29e6] hover:bg-[#6f2532e6] text-white py-2 px-4 rounded"
+              >
+                Send another message
+              </button>
+            </div>
+            ) : (
+              <div className="text-center order-2 md:mb-8 lg:order-1 lg:col-span-1">
+                <h2 className="lg:text-[35px] text-[30px] tracking-tight font-bold">Let&apos;s connect!</h2>
+                <p className="py-2 px-2 lg:px-8 flex justify-center text-[18px] tracking-tight">
+                  If you want to know more about me or my work, or if you would just
+                  like to say hello, send me a message. I&apos;d love to hear from you.
+                </p>
+              <div className="mt-2">
+              <i className="fa fa-code" aria-hidden="true"></i>
+              <i className="fa fa-heart ml-2" aria-hidden="true"></i>
+        </div>
+      </div>
             
           )}
           

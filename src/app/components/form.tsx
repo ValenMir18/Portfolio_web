@@ -57,7 +57,7 @@ const Form: React.FC<ContactProps> = ({ onSubmitSuccess }) => {
             autoComplete="name"
             onChange={(e) => setName(e.target.value)}
             placeholder="Name"
-            className="lg:mb-2 lg:h-8 md:h-12 bg-gray-800 p-2 lg:text-sm md:text-2xl rounded mb-3"
+            className="lg:mb-2 lg:h-8 md:h-12 bg-[#141414] p-2 lg:text-sm md:text-sm rounded mb-3"
           />
           <input
             type="email"
@@ -67,7 +67,7 @@ const Form: React.FC<ContactProps> = ({ onSubmitSuccess }) => {
             autoComplete="email"
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
-            className=" lg:mb-2 lg:h-8 md:h-12 bg-gray-800 p-2 lg:text-sm md:text-2xl rounded mb-3"
+            className=" lg:mb-2 lg:h-8 md:h-12 bg-[#141414] p-2 lg:text-sm md:text-sm rounded mb-3"
           />
           <textarea
             name="Message"
@@ -77,13 +77,13 @@ const Form: React.FC<ContactProps> = ({ onSubmitSuccess }) => {
             onChange={(e) => setMessage(e.target.value)}
             id="Message"
             placeholder="Your message"
-            className="lg:h-32 h-44 bg-gray-800 p-2 lg:text-sm md:text-2xl rounded "
+            className="lg:h-32 h-44 bg-[#141414] p-2 lg:text-sm md:text-sm rounded "
           ></textarea>
 
           <div>
             <button
               type="submit"
-              className={`hover:text-white bg-rose-700 hover:bg-rose-900 focus:ring-2 focus:outline-none font-medium rounded-lg lg:text-sm md:text-2xl px-3 py-0.5 text-center mt-2 text-white focus:ring-pink-400 
+              className={`hover:text-white bg-[#5d1d29e6] hover:bg-[#6f2532e6] focus:ring-2 focus:outline-none font-medium rounded-lg text-sm px-3 py-0.5 text-center mt-2 text-white focus:ring-pink-400 
                 ${loading ? "opacity-50 cursor-not-allowed" : ""}`}
               disabled={loading}
             >
