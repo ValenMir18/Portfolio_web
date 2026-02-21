@@ -26,7 +26,7 @@ export default function RedesSociales() {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/prasca__v?igsh=MWsybWZqZzYxYXMxeQ=="
+            href="https://www.instagram.com/prasca.v_?igsh=MXFmYXFyZ3VnbDg4NA=="
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#b1b1b1] text-white"
@@ -40,7 +40,7 @@ export default function RedesSociales() {
         </li>
         <li>
           <a
-            href="https://twitter.com/valMpr"
+            href="https://www.instagram.com/prasca.v_?igsh=MXFmYXFyZ3VnbDg4NA=="
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#b1b1b1] text-white"
